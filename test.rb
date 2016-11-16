@@ -26,7 +26,7 @@ class Test
   def result_printer(results)
     puts "Вы набрали : " + @amount_of_points.to_s + " баллов" + " ,и ваш результат: "
     case @amount_of_points
-    when 30..31
+    when 30..32
       puts results[0]
     when 25..29
       puts results[1]
